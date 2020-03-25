@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">皮卡丘记账</string>
+    <string name ="start">Welcome</string>
+    <string name ="ban">©北漓燊</string>
+    <string name ="buttonFirst">点击进入</string>
+    <string name="userName">账号</string>
+    <string name="userPassword">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="clickqq">QQ登录</string>
+    <string name="ok">提交</string>
+    <string name="returning">返回上一页</string>
+    <string name="tips">获取验证码</string>
+    <string name="accept">确认</string>
+    <array name="chinesename">用户名</array>
+    <array name="phone">手机号</array>
+    <array name="sucessword">验证码</array>
+    <array name="mail">邮箱号</array>
+    <array name="tips">获取验证码</array>
+</resources>

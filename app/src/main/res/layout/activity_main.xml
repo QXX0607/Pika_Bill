@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/five"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="214dp"
+
+        android:layout_x="98dp"
+        android:layout_y="226dp"
+        android:autofillHints="26"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:layout_x="22dp"
+        android:layout_y="156dp"
+        android:text="@string/userName"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginTop="0dp"
+        android:layout_x="13dp"
+        android:layout_y="330dp"
+        android:background="@drawable/shape"
+        android:text="@string/login"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="298dp"
+        android:layout_x="117dp"
+        android:layout_y="330dp"
+        android:background="@drawable/shape"
+        android:text="@string/register"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="56dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222dp"
+        android:layout_x="22dp"
+        android:layout_y="239dp"
+        android:text="@string/userPassword"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/tv1"
+
+        android:layout_marginBottom="20dp"
+        android:layout_x="105dp"
+        android:layout_y="156dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="112dp"
+        android:layout_x="235dp"
+        android:layout_y="329dp"
+        android:background="@drawable/shape"
+        android:onClick="blogin"
+        android:text="@string/clickqq"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_x="149dp"
+        android:layout_y="528dp"
+        android:text="@string/ban"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+</AbsoluteLayout>
